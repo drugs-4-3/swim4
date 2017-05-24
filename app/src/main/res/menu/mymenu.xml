@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:title="Set to RED"
+        android:id="@+id/allToRedItem">
+    </item>
+    <item
+        android:title="Set to GREEN"
+        android:id="@+id/allToGreenItem">
+    </item>
+    <item
+        android:title="Set to BLUE"
+        android:id="@+id/allToBlueItem">
+    </item>
+
+    <item
+        android:title="item4">
+        <menu>
+            <item
+                android:title="Set tv2 to RED"
+                android:id="@+id/tv2ToRedItem">
+            </item>
+            <item
+                android:title="Set tv2 to GREEN"
+                android:id="@+id/tv2ToGreenItem">
+            </item>
+            <item
+                android:title="Set tv2 to BLUE"
+                android:id="@+id/tv2ToBlueItem">
+            </item>
+        </menu>
+    </item>
+</menu>
