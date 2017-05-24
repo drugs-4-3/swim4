@@ -5,37 +5,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="learning.ifeel3.swim4.MainActivity">
+    tools:context="learning.ifeel3.swim4.Activity2">
 
     <EditText
-        android:id="@+id/textview1"
+        android:id="@+id/textview3"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:gravity="center"
         android:layout_margin="32dp"
-        android:text="Text View 1"
+        android:text="Text View 3"
         android:textSize="18sp"/>
 
     <EditText
-        android:id="@+id/textview2"
+        android:id="@+id/textview4"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_margin="32dp"
         android:layout_centerHorizontal="true"
         android:gravity="center"
-        android:layout_below="@id/textview1"
-        android:text="Text View 2"
+        android:layout_below="@id/textview3"
+        android:text="Text View 4"
         android:textSize="18sp"/>
 
-    <Button
-        android:id="@+id/button"
-        android:layout_width="match_parent"
+    <ImageView
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:layout_margin="32dp"
-        android:onClick="startActivity2"
-        android:text="Activity2"/>
+        android:layout_below="@id/textview4"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:id="@+id/image1"
+        android:src="@drawable/ic_code_black_24dp"/>
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textview4"
+        android:layout_toRightOf="@id/image1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="64dp"
+        android:id="@+id/image2"
+        android:src="@drawable/ic_build_black_24dp"/>
+
 
 </RelativeLayout>
